@@ -36,16 +36,7 @@ hr {
   margin: 100px auto;
 }
 
-a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
 
-a:hover {
-  color: #EAF6F6;
-}
 
 .top-container {
   background-color: #E4F9F5;
@@ -59,10 +50,16 @@ a:hover {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 10px 0 10px;
 }
 
-.skill-row {
+.education-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.habites-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -100,17 +97,58 @@ a:hover {
   bottom: 300px;
 }
 
-.code-img {
+.profile-img {
   width: 25%;
+}
+
+.inpt-logo {
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
 
-.chilli-img {
+.cpge-logo {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
+
+.lycee-sed {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Photography-gif{
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.Walking-gif{
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.Volunteer-img{
+  width: 20%;
+  float: right;
+  margin-right: 30px;
+}
+
+.habites-row h3 , .Photography-gif {
+  display: inline-block;
+}
+
+.habites-row h3 , .Walking-gif {
+  display: inline-block;
+}
+
+.habites-row h3 , .Volunteer-img {
+  display: inline-block;
+}
+
 
 .btn {
   background: #11cdd4;
